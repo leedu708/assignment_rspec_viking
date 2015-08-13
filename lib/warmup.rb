@@ -31,8 +31,8 @@ class Warmup
   #   3. Your method actually returns a string totally 
   #      unrelated to the one passed in
   def calls_some_methods(string)
-    loud_string = string.upcase!
-    loud_string.reverse!
+    string.upcase!
+    string.reverse!
     return "I am unrelated"
   end
 
